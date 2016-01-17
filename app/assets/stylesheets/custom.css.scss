@@ -20,17 +20,21 @@ $navbar-default-bg: #009ACD;
 }
 
 .jumbotron {
+  margin-top: 5px;
   background-image: asset-url('inovacaracter.png');
   background-repeat:no-repeat;
-
-  height: 350px;
+  background-position: bottom;
+  padding-top: 3px;
+  height: 450px;
 
 }
 
 .jumbotron h1 {
   color: #009ACD;
+  
+
   text-align: center;
-  margin-bottom: 38px;
+  margin-bottom: 18px;
   letter-spacing: -1px;
   font-weight: bold;
 }
